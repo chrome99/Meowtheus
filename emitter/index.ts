@@ -18,7 +18,7 @@ function main() {
       console.log("Meowing a meow...");
       const res = await sendMeowRequest();
       console.log(`[${res.status}] ${res.statusText}`);
-    } catch (err) {
+    } catch (err: any) {
       console.log(`Error: ${err.message}`);
     }
   }, meowingInterval);
