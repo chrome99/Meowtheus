@@ -1,5 +1,9 @@
-# Node + build artifacts
+# ========== COMMON ==========
+
+# Node
 node_modules
+
+# Build output
 dist
 build
 
@@ -9,10 +13,13 @@ npm-debug.log*
 
 # OS
 .DS_Store
+Thumbs.db
 
-# dotenv
+# dotenv files
 .env
-.env.*.local
+.env.*
+!.env.example
+!.env.test
 
 # VSCode
 .vscode/*
@@ -22,3 +29,19 @@ npm-debug.log*
 # Test coverage
 coverage
 .nyc_output
+
+# ========== SVELTE SPECIFIC ==========
+
+# SvelteKit output
+.svelte-kit/
+.output/
+.vercel/
+.netlify/
+.wrangler/
+
+# Vite temp
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Test runner output
+test-results
