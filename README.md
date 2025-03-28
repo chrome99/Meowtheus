@@ -1,4 +1,4 @@
-# Meowtheus
+# 🐱 Meowtheus
 
 Meowtheus is an application for monitoring and streaming real-time meow events from your cats.
 
@@ -7,6 +7,9 @@ Meowtheus is an application for monitoring and streaming real-time meow events f
 - **Real-time Meow Streaming**: Live-stream of cat meows using Server-Sent Events (SSE).
 - **Animations and Effects**: Smooth animations and auto-scrolling for the latest meow events.
 - **Multi-cat Support**: Prepared to handle multiple cats (currently mocked for testing).
+
+## App Demo
+![meowtheus-demo](https://github.com/user-attachments/assets/531938d8-b02e-48e8-bb9a-27692483b7ef)
 
 ## Technology Stack
 
