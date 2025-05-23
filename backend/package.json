@@ -1,0 +1,24 @@
+{
+  "name": "meowtheus-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tsx ./index.ts",
+  "scripts": {
+    "start": "tsx ./index.ts",
+    "dev": "tsx watch ./index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.5.2",
+  "devDependencies": {
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
