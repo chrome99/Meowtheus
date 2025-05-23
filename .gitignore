@@ -19,29 +19,9 @@ Thumbs.db
 .env
 .env.*
 !.env.example
-!.env.test
 
 # VSCode
 .vscode/*
 !.vscode/settings.json
 !.vscode/launch.json
 
-# Test coverage
-coverage
-.nyc_output
-
-# ========== SVELTE SPECIFIC ==========
-
-# SvelteKit output
-.svelte-kit/
-.output/
-.vercel/
-.netlify/
-.wrangler/
-
-# Vite temp
-vite.config.js.timestamp-*
-vite.config.ts.timestamp-*
-
-# Test runner output
-test-results
